@@ -1,5 +1,8 @@
 # 🚖 Uber Data Analysis Project using EDA
 
+## Introduction
+Uber Technologies, Inc., commonly referred to as Uber, is an American multinational transportation company that provides ride-hailing services, courier services, food delivery, and freight transport. It is headquartered in San Francisco, California, and operates in approximately 70 countries and 10,500 cities worldwide. It is the largest ridesharing company worldwide with over 150 million (15 Crores) monthly active users and 6 million (60 Lakhs) active drivers and couriers. It facilitates an average of 28 million (2.8 Crore) trips per day and has facilitated 47 billion (4700 Crore) trips since its inception in 2010.Uber generated $37.2 billion revenue in 2023
+
 ## 📄 Overview
 This project involves performing **Exploratory Data Analysis (EDA)** on Uber ride data from 2016 to uncover insights and patterns. The dataset provides details about trip start/end times, locations, distances, and purposes, allowing us to explore Uber's usage trends.
 
@@ -39,6 +42,14 @@ This project involves performing **Exploratory Data Analysis (EDA)** on Uber rid
 ## 🛠 Technologies Used
 - **Language**: Python
 - **Libraries**: pandas, seaborn, matplotlib
+
+## Questions  to  analysis the uber data
+- **1)** In which category do people book the most Uber rides?
+- **2)** For which purpose do people book Uber rides the most?
+- **3)** At what time do people book cabs the most from Uber?
+- **4)** In which months do people book Uber rides less frequently?
+- **5)** On which days of the week do people book Uber rides the most?
+- **6)** How many miles do people usually book a cab for through Uber?
 
 ## ✅ Conclusion
 The analysis revealed key insights into Uber’s usage patterns, highlighting its frequent use for business travel, especially during the evening and night. This project demonstrates the power of **EDA** in turning raw data into actionable insights.
