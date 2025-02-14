@@ -1,51 +1,44 @@
-# Uber-Data-Analysis-EDA-Project
-This project focuses on conducting an Exploratory Data Analysis (EDA) of Uber trip data to uncover insights and patterns in user behavior, trip characteristics, and overall service performance. The EDA phase helps to understand the dataset's structure.
+# 🚖 Uber Data Analysis Project using EDA
 
-#  Title Slide
-Title: Uber Data Analysis Project using EDA
-Subtitle: Exploring Uber Ride Patterns from 2016
-Name: Adarsh Suryawanshi
+## 📄 Overview
+This project involves performing **Exploratory Data Analysis (EDA)** on Uber ride data from 2016 to uncover insights and patterns. The dataset provides details about trip start/end times, locations, distances, and purposes, allowing us to explore Uber's usage trends.
 
-# Project Overview
-Objective: Analyze Uber rides data from 2016 to uncover insights about trip patterns.
-Data: Dataset containing trip details like start/end times, locations, distances, and purposes.
+## 📊 Dataset
+- **Source**: Uber rides dataset from 2016
+- **Size**: 1,156 rows, 7 columns
+- **Key Features**:
+  - `START_DATE`, `END_DATE`: Start and end times of each trip
+  - `CATEGORY`: Trip type (Business, Personal)
+  - `START`, `STOP`: Locations of the trip
+  - `MILES`: Distance traveled
+  - `PURPOSE`: Purpose of the trip (e.g., Meeting, Errand)
 
-# Data Exploration & Preprocessing
-Initial Dataset: 1,156 entries with 7 columns.
-Data Cleaning:
-Handled missing values in the 'PURPOSE' column.
-Converted 'START_DATE' and 'END_DATE' to proper date-time format.
-Created new features (day, time, month).
+## ⚙️ Process
 
-# Feature Engineering
-## Created additional features:
-Day-Night Categorization: Grouping trips by time of day (morning, afternoon, evening, night).
-Trip Day: Grouping trips by weekday.
-Month: Mapped dates to months for trend analysis.
+### 🧹 Data Preprocessing
+- Handled missing values, particularly in the `PURPOSE` column.
+- Converted the `START_DATE` and `END_DATE` columns to **datetime** format.
+- Created new features like `time`, `day`, `month`, and `day-night` to assist in the analysis.
 
-# Data Visualization – Trip Categories
-Bar Plot: Distribution of trips by category (e.g., business vs. personal).
-Insight: Majority of trips were business-related.
+### 📈 Data Visualization
+- **Trip Categories**: Business trips dominate the dataset.
+- **Trip Purposes**: Common purposes include meetings, errands, and customer visits.
+- **Time of Day**: More trips were taken during the evening and night.
+- **Distance Distribution**: Most trips were under 10 miles, with a few long-distance trips.
 
-#  Trip Timing Analysis
-Day vs. Night Trips: Bar plot showing when most trips occurred (e.g., evening trips were more frequent).
-Insight: Peak ride times were in the evening and night.
+### 🔑 Key Insights
+- **Business Trips**: Majority of the trips were for business purposes, suggesting Uber is widely used for work travel.
+- **Time Trends**: Evening and night trips were the most frequent.
+- **Trip Length**: Short-distance trips were common, with a few outliers representing longer trips.
 
-# Distance Analysis
-Box Plot: Distribution of trip distances.
-Insight: Most trips were short-distance, with a few outliers representing longer trips.
+## 📊 Visualizations
+- **Bar Plots**: To show the distribution of trip categories and purposes.
+- **Box Plots**: To visualize the spread of trip distances.
+- **Line Plots**: Month-wise trends in Uber trips.
 
-# Month-wise and Day-wise Trends
-Line Plot: Trend of rides over months.
-Bar Plot: Distribution of rides over days of the week.
-Insight: Consistent ride activity throughout the year, with slight variations across weekdays.
+## 🛠 Technologies Used
+- **Language**: Python
+- **Libraries**: pandas, seaborn, matplotlib
 
-# Conclusions
-## Key Findings:
-Business-related trips dominate the dataset.
-Most trips are short-distance and occur during the evening or night.
-Ride purposes vary, with meetings and errands being common.
-
-# Tools & Libraries
-Tools Used: Python
-Libraries: pandas, seaborn, matplotlib
+## ✅ Conclusion
+The analysis revealed key insights into Uber’s usage patterns, highlighting its frequent use for business travel, especially during the evening and night. This project demonstrates the power of **EDA** in turning raw data into actionable insights.
