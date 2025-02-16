@@ -7,7 +7,7 @@ Uber Technologies, Inc., commonly referred to as Uber, is an American multinatio
 This project involves performing **Exploratory Data Analysis (EDA)** on Uber ride data from 2016 to uncover insights and patterns. The dataset provides details about trip start/end times, locations, distances, and purposes, allowing us to explore Uber's usage trends.
 
 ## 📊 Dataset
-- **Source**: Uber rides dataset from 2016
+- **Source**: Uber rides dataset 
 - **Size**: 1,156 rows, 7 columns
 - **Key Features**:
   - `START_DATE`, `END_DATE`: Start and end times of each trip
