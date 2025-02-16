@@ -36,7 +36,7 @@ This project involves performing **Exploratory Data Analysis (EDA)** on Uber rid
 
 ## 📊 Visualizations
 - **Bar Plots**: To show the distribution of trip categories and purposes.
-- **Box Plots**: To visualize the spread of trip distances.
+- **Dist Plots**: To visualize the spread of trip distances.
 - **Line Plots**: Month-wise trends in Uber trips.
 
 ## 🛠 Technologies Used
