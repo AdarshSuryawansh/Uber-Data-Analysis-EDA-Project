@@ -42,7 +42,7 @@ This project involves performing **Exploratory Data Analysis (EDA)** on Uber rid
 
 ## 🛠 Technologies Used
 - **Language**: Python
-- **Libraries**: pandas, numpzy, seaborn, matplotlib
+- **Libraries**: pandas, numpay, seaborn, matplotlib
 
 ## Questions  to  analysis the uber data
 - **1)** In which category do people book the most Uber rides?
